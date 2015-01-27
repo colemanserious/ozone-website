@@ -532,6 +532,7 @@ nav ul {
             .col5:nth-of-type(5),
             .col4:nth-of-type(4),
             .col3:nth-of-type(3),
+            .col3:nth-of-type(6),
             .col2:nth-of-type(even) {
                 padding-right: 0;
             }
