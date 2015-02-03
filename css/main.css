@@ -132,7 +132,7 @@ a, a:visited {
     }
 
 a.button {
-    background: #f59d4c;
+    background: #3b4246;
     color: #fff;
     display: block;
     width: 200px;
@@ -144,9 +144,9 @@ a.button {
     margin: 10px auto;
     font-size: 18px;
     text-decoration: none;
-    -webkit-border-radius: 5px; 
-    -moz-border-radius: 5px; 
-    border-radius: 5px; 
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     -webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -o-transition: all 0.1s ease-in;
@@ -155,7 +155,7 @@ a.button {
 }
 
     a.button:hover, a.button:active {
-        background-color: #fbc56a;
+        background: #4c5457;
     }
 
     a.button [class^="icon-"], a.button [class*=" icon-"] {
@@ -199,9 +199,9 @@ h1[class^="icon-"], h1[class*=" icon-"] {
         background-image:
         linear-gradient(
             to top right, 
-            #5a9e5a, #009dd3
+            #0e5772, #009dd3
         );
-        background: url('../img/bg_clouds.jpg');
+        background: url('../img/bg_fractal.png');
         background-size: cover;
         padding-top: 30px;
     }
@@ -209,7 +209,7 @@ h1[class^="icon-"], h1[class*=" icon-"] {
     .header-container h2 {
         display: block;
         clear: both;
-        color: white;
+        color: #fff;
         max-width: 90%;
         padding: 0 0 50px 0;
         margin: 0 auto;
