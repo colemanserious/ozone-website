@@ -125,10 +125,12 @@ ul, li {
 a, a:visited {
     color: #32838c;
     text-decoration: none;
+    outline: none;
 }
 
     a:hover, a:focus, a:active {
         color: #d45a28;
+        outline: none;
     }
 
 a.button {
@@ -367,6 +369,21 @@ nav ul {
     padding: 20px 0;
 }
 
+.col2, .col3, .col4, .col5 {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eeeeef;
+    display: block;
+    float: left;
+}
+
+    .col2 img, 
+    .col3 img, 
+    .col4 img, 
+    .col5 img {
+        max-width: 100%;
+    }
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -411,12 +428,6 @@ nav ul {
         .header-container nav li:last-child a {
             margin: 0 1.7% 0 0;
         }
-
-    .col2, .col3, .col4, .col5 {
-        margin-bottom: 30px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #eeeeef;
-    }
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -491,7 +502,6 @@ nav ul {
 
         .col5 {
             width: 17%;
-            float: left;
             padding-right: 4%;
         }
 
@@ -501,19 +511,16 @@ nav ul {
 
         .col4 {
             width: 22%;
-            float: left;
             padding-right: 4%;
         }
 
         .col3 {
             width: 30%;
-            float: left;
             padding-right: 5%;
         }
 
         .col2 {
             width: 44%;
-            float: left;
             padding-right: 8%;
         }
 
